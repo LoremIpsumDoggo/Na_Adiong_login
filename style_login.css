@@ -1,0 +1,173 @@
+/*
+Colors: 
+#9ce4ff pale blue
+#0088B8 light blue
+#0B6583 dark blue
+#333333 dark gray
+#383838 gray
+#595959 light gray
+#828282 lighter gray
+
+The closed curly bracket is beside the code snippet because it's hard to read & it doesn't look nice
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("images/random professional image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+#logo {
+    border-style: none;
+    width: 80px;
+    color: white;
+    align-self: center;}
+nav {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;}
+nav ul {
+    list-style-type: none;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #333;}
+nav li {
+    float: left;}
+nav li a {
+    color: white;
+    display: block;
+    height: 40px;
+    padding: 30px 10px;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #333;}
+#logo_button {
+    padding: 15px;
+    margin: 0px;}
+
+#loginspace {
+    color: white;
+    width: 40%;
+    background-color: #383838;
+    border: 1px solid #0088B8;
+    margin: 80px auto;
+    padding: 5px;
+    text-align: center;}
+
+#iptspace1 {
+    margin: 20px auto 0px;
+    padding: 5px;
+    width: 300px;
+    height: 50px;}
+#p1 {
+    text-align: left;
+    margin: 0px;}
+#ipt1 {
+    width: 300px;
+    height: 20px;
+    margin: 0px;}
+#ipt1:focus {
+    background-color: #9ce4ff}
+#ipt1:not(focus) {
+    background-color: white}
+
+#iptspace2 {
+    margin: 20px auto 0px;
+    padding: 5px;
+    width: 300px;
+    height: 150px;}
+#p2 {
+    text-align: left;
+    margin: 0px;}
+#ipt2 {
+    width: 300px;
+    height: 20px;
+    margin: 0px;}
+#ipt2:focus {
+    background-color: #9ce4ff}
+#ipt2:not(focus) {
+    background-color: white}
+#remark {
+    font-style: italic;
+    color: red;
+    font-size: 15px;}
+
+#forgotinfo {
+    color: #0088B8;
+    text-align: left;
+    margin-top: 20px;
+    float: left;
+    clear: left; /*because this is how margins work apparently*/}
+#btn {
+    color: white;
+    background-color: #0088B8;
+    text-align: center;
+    margin-top: 20px;
+    float: right;
+    clear: right;}
+
+#intro {
+    color: white;
+    background-color: #383838;
+    width: 40%;
+    height: 250px;
+    border: 1px solid #0088B8;
+    margin: 100px auto 70px auto;
+    padding: 5px;
+    text-align: left;}
+.introitem {
+    margin: 10px;}
+
+footer {
+    font-size: 14px;
+    background-color: #0088B8;
+    color: white;
+    width: 100%;
+    height: 200px;}
+#col1 {
+    width: 1000px;
+    display: block;}
+#col1 ul {
+    float: left;
+    list-style-type: none;}
+#col1 ul li {
+    padding: 0px;}
+#col2 {
+    display: block;}
+#col2 ul {
+    margin-top: 20px;
+    float: left;
+    list-style-type: none;}
+#col2 ul li {
+    margin: 10px;
+    padding: 0px;}
+#col2 ul li a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0px;}
+
+#sprite1 {
+    width: 24px;
+    height: 24px;
+    background: url('images/sprite16x16.png') -12px -112px;
+    background-size: 271px 253px;}
+#sprite2 {
+    width: 24px;
+    height: 24px;
+    background: url('images/sprite16x16.png') -44px -112px;
+    background-size: 271px 253px;}
+#a1 {
+    margin: 0px;
+    float: left;}
+#a2{
+    margin: 0px;
+    float: left;}
